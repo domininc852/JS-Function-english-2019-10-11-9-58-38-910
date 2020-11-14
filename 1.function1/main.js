@@ -3,5 +3,5 @@ function reverseString(message){
   for (var i=message.length-1;i>=0;i--){
     reverse+=message[i];
   }
-  console.log(reverse);
+  return reverse;
 }
